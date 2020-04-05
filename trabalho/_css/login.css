@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: white;
+    background-position: 50% 70%;
+    font-family: Arial;
+}
+
+input,
+select,
+textarea{
+    display: block;
+    height: 55px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid #2c3e50;
+    font-size: 16pt;
+    padding: 10px 20px;
+    background-color: rgba(255,255,255,.01);
+    color: black;
+    outline: none;
+}
+
+textarea{
+    display: block;
+    height: 200px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid #2c3e50;
+    font-size: 16pt;
+    padding: 10px 20px;
+    background-color: rgba(255,255,255,.01);
+    color: black;
+    outline: none;
+}
+div#corpo-form-cad{
+      background-color: white;
+      width: 420px;
+      margin: 100px auto 0px auto;
+}
+
+div#corpo-form-cad h1{
+    text-align: center;
+    padding: 30px;
+    color: #2c3e50;
+    font-weight: bold;
+
+}
+
+div#corpo-form,
+div#corpo-form-denuncia{
+    background-color: white;
+    width: 420px;
+    margin: 130px auto 0px auto;
+}
+div#corpo-form h1,
+div#corpo-form-denuncia h1{
+    text-align: center;
+    padding: 20px;
+    color: #2c3e50;
+    font-weight: bold;
+}
+fieldset{
+    margin: auto;
+    border: 1px solid #2c3e50;
+}
+fieldset legend{
+    font-size: 13pt;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: tomato;
+    padding-inline-start: 2px;
+}
+a{
+    color: blue;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+button#enviar{
+    background-color: tomato;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 30px;
+    height: 55px;
+    width: 400px;
+    margin: 5px;
+    padding: 5px 20px;
+    font-size: 16pt;
+}
+input[type=submit]{
+    background-color: tomato;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
